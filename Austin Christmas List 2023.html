@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Christmas Wishlist</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        #wishlist-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #wishlist {
+            background: #ff4747;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            color: white;
+            z-index: 1;
+        }
+
+        h1 {
+            color: #ffe600;
+            font-size: 2em;
+            text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #98fb98;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            color: #006400;
+            font-weight: bold;
+            position: relative;
+            padding-left: 40px;
+            /* Make room for the SVG bullet */
+        }
+
+        ul li:before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            /* Adjust the position as needed */
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            /* Width of the SVG icon */
+            height: 24px;
+            /* Height of the SVG icon */
+            background-image: url('data:image/svg+xml;utf8,[YOUR-SVG-HERE]');
+            /* Paste your SVG here */
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wishlist">
+        <h1>Austin's Christmas List 2023</h1>
+        <ul>
+            <li><a href="https://www.amazon.com/Lavazza-Espresso-Italiano-Single-Serve-60-Count/dp/B086Z5R6Q3/ref=sr_1_11?crid=340LTSCG4OVPC&keywords=lavazza%2Bkeurig%2Bpods&qid=1699887441&sprefix=lavazza%2Bkeurig%2Bp%2Caps%2C305&sr=8-11&th=1"
+                    target="_blank">&#127794 Lavazza Keurig Pods</a></li>
+            <li><a href="https://www.homedepot.com/c/gift-cards" target="_blank">&#127794 Home Depot Gift Cards</a></li>
+            <li><a href="https://www.ikea.com/us/en/p/hovet-mirror-black-30515917/?utm_source=google&utm_medium=surfaces&utm_campaign=shopping_feed&utm_content=free_google_shopping_clicks_Decoration&gad_source=1"
+                    target="_blank">&#127794 IKEA Hovet Mirror</a></li>
+            <li><a href="https://www.growfragrance.com/collections/candles?tw_source=google&tw_adid=&tw_campaign=20489818253&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buP4IOQpjASsCW07C_663vHOcNezBPYsmOR1zhzWyBiw4EvOpgFA9moaAsVkEALw_wcB"
+                    target="_blank">&#127794 Grow Fragrance 100% Natural Candles</a></li>
+            <li><a href="https://www.gymshark.com/products/gymshark-rest-day-essentials-joggers-black-ss23"
+                    target="_blank">&#127794 Gymshark Rest Day Essential Sweats</a></li>
+            <li><a href="https://www.etsy.com/listing/1458652058/framed-canvas-wall-art-set-of-3-white?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=minimalist+wall+art+framed&ref=sr_gallery-1-19&frs=1&organic_search_click=1&variation0=3462607158&variation1=3462607156"
+                    target="_blank">&#127794 Oversized, 3-piece, Black Frame, Minimallist Wall Art</a></li>
+            <!-- <li><a href="" target="_blank">&#127794 </a></li>
+            <li><a href="" target="_blank">&#127794 </a></li> -->
+        </ul>
+    </div>
+</body>
+
+</html>
